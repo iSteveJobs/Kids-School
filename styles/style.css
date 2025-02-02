@@ -5,7 +5,8 @@
 
 /* shared styles */
 
-header {
+header,
+main {
   background: #f7f7f7;
   padding: 1.25rem 8.8rem 25rem 8.8rem;
 }
@@ -24,6 +25,9 @@ body {
 .color-blue {
   color: #5d58ef;
 }
+.color-purple {
+  color: #8700ff;
+}
 .color-black {
   color: #111;
 }
@@ -38,7 +42,7 @@ body {
   align-items: center;
 }
 .nav-bar {
-    max-width: 1160px;
+  max-width: 1160px;
   justify-content: space-between;
   padding: 1.25rem;
 }
@@ -100,17 +104,82 @@ body {
   width: 197px;
   padding: 10px;
   border-radius: 12px;
-  background:#111;
+  background: #111;
   color: #fff;
   font-size: 20px;
   font-weight: 700;
   line-height: 30px;
 }
-.banner-container{
-    max-width: 1160px;
-    gap: 50px;
-    padding-left:  2rem;
-    align-items: center;
+.banner-container {
+  max-width: 1160px;
+  gap: 50px;
+  padding-left: 2rem;
+  align-items: center;
+}
+.curriculum-title {
+  color: #000;
+  text-align: center;
+  font-size: 2.9rem;
+  font-weight: 700;
+  line-height: 57.5px;
+  margin-bottom: 80px;
+}
+.standard-level {
+  padding: 30px 53px;
+  text-align: center;
+}
+.level-image {
+  max-width: 136.763px;
+  margin-bottom: 32px;
+}
+.level-title {
+  color: #202020;
+  text-align: center;
+  font-size: 24.523px;
+  font-weight: 700;
+  line-height: 30.654px;
+  margin-bottom: 32px;
+}
+.level-description {
+  color: #808080;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 15.091px;
+  font-weight: 500;
+  line-height: 28.296px;
+  margin-bottom: 32px;
+}
+.level-more {
+  text-align: center;
+  font-size: 15.091px;
+  font-weight: 700;
+  line-height: 28.296px;
+  margin-bottom: 140px;
+}
+.curriculum {
+  padding: 60px 0 60px 120px;
+}
+.special-symbol {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.box {
+  background:#fea301;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.special-text{
+    color: #FFF;
+    text-align: center;
+    font-family: "Font Awesome 5 Free";
+    font-size: 1.5rem;
+    font-weight: 900;
+    line-height: 24px;
+    padding: 0.7rem 1rem;
 }
 
 /* responsive media query */
@@ -126,5 +195,11 @@ body {
   }
   .nav-options {
     gap: 1rem;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  main{
+    padding: 0;
   }
 }
