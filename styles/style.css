@@ -8,7 +8,7 @@
 header,
 main {
   background: #f7f7f7;
-  padding: 1.25rem 8.8rem 25rem 8.8rem;
+  padding: 1.25rem 8.8rem 3.75rem 8.8rem;
 }
 body {
   font-family: "Quicksand", serif;
@@ -165,23 +165,115 @@ body {
   gap: 20px;
 }
 .box {
-  background:#fea301;
+  background: #fea301;
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
 }
-.special-text{
-    color: #FFF;
-    text-align: center;
-    font-family: "Font Awesome 5 Free";
-    font-size: 1.5rem;
-    font-weight: 900;
-    line-height: 24px;
-    padding: 0.7rem 1rem;
+.special-text {
+  color: #fff;
+  text-align: center;
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 24px;
+  padding: 0.7rem 1rem;
 }
 
+.our-stories {
+  background-image: url("../assets/bg.png");
+}
+.stories-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+#stories-1 {
+  grid-row: span 2;
+}
+.our-title {
+  color: #000;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 57.5px;
+  margin-bottom: 80px;
+}
+.stories1-image {
+  max-width: 540px;
+  border-radius: 16px 16px 0px 0px;
+}
+.stories1-title {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 38.347px;
+  max-width: 402px;
+  padding: 40px;
+}
+.stories-description {
+  color: #666;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  max-width: 433px;
+  padding: 40px;
+}
+.stories-date {
+  max-width: 174.51px;
+  padding: 14.38px 18.876px 15.339px 19.174px;
+  text-align: center;
+  border-radius: 47.934px;
+  border: none;
+  background: #3cd8e8;
+  color: #fff;
+  font-family: Raleway;
+  font-size: 15.339px;
+  font-weight: 500;
+  line-height: 28.761px;
+  margin-top: -50px;
+  margin-left: 40px;
+}
+.stories-title {
+  color: #000;
+  font-size: 15.339px;
+  font-weight: 700;
+  line-height: 28.761px;
+  max-width: 198.036px;
+}
+
+footer {
+  background-color: #01acfd;
+  padding: 123px 235px 174px 147px;
+}
+.img-title {
+  display: flex;
+  align-items: center;
+}
+.box1-title {
+  color: #fff;
+  font-size: 42.143px;
+  font-weight: 700;
+  line-height: 39.509px;
+}
+.box1-description {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 399.02px;
+}
+.footer-container{
+    justify-content: space-between;
+}
+.box2 li{
+    list-style: none;
+}
+.box2 a{
+    text-decoration: none;
+}
 /* responsive media query */
 @media screen and (max-width: 576px) {
   .display-flex {
@@ -199,7 +291,7 @@ body {
   .banner-container {
     flex-direction: column-reverse;
   }
-  main{
+  main {
     padding: 0;
   }
 }
