@@ -268,11 +268,21 @@ footer {
 .footer-container{
     justify-content: space-between;
 }
+.box2-title{
+    margin-bottom: 20px;
+}
 .box2 li{
     list-style: none;
+    margin-bottom: 20px;
 }
 .box2 a{
     text-decoration: none;
+}
+.box3-title{
+    margin-bottom: 30px;
+}
+.social-link img{
+    margin-right: 20px;
 }
 /* responsive media query */
 @media screen and (max-width: 576px) {
